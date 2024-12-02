@@ -1,8 +1,8 @@
 function getShippingMessage(cuntry, price, deliveryFee) {
   return `Shipping to ${cuntry} will cost ${price + deliveryFee} credits`;
-  getShippingMessage("Australia", 120, 50);
-  getShippingMessage("Germany", 80, 20);
-  getShippingMessage("Sweden", 100, 20);
+  // getShippingMessage("Australia", 120, 50);
+  // getShippingMessage("Germany", 80, 20);
+  // getShippingMessage("Sweden", 100, 20);
 }
 
 console.log(getShippingMessage("Australia", 120, 50)); // "Shipping to Australia will cost 170 credits"
